@@ -1,0 +1,9 @@
+ssh -i digitalOcean root@104.248.31.87
+
+
+
+chmod 611 digitalOcean
+chmod 600 digitalOcean
+
+ls -la
+  -rw-------
