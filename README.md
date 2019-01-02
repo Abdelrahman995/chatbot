@@ -13,11 +13,10 @@ Rasa Core version: 0.8.2
 
 ## How to use this repo
 
-The code of this repo differs quite significantly from the original video. This is how to use it:
 
 ### Training the NLU model
 
-Training of the NLU model didn't change much from the way it was shown in the video. To train and test the model run:  
+ To train and test the model run:  
 
 ``` python nlu_model.py ```
 
@@ -46,7 +45,7 @@ The process of running the online session is very similar to training the Rasa C
 ``` python train_online.py ```  
 
 ### Connecting a chatbot to Slack:
-1. Configure the slack app as shown in the video  
+1. Configure the slack app as shown in the video (https://github.com/JustinaPetr/Weatherbot_Tutorial/tree/master/Full%20Code%20%5BLatest%20release%20of%20Rasa%20NLU%20and%20Rasa%20Core%5D)
 2. Make sure custom actions server is running  
 3. Start the agent by running run_app.py file (don't forget to provide the slack_token)  
 4. Start the ngrok on the port 5004  
